@@ -1,18 +1,124 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+﻿:root {
+    --primary-color: #00416d;
+    --secondary-color: #625e66;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
 }
 
 body {
-  margin-bottom: 60px;
+    color: var(--dark-color);
+    font-family: 'IM Fell English', serif;
+}
+
+.appbody {
+    color: #444444;
+}
+
+.logoFont {
+    font-family: 'Alegreya SC', serif;
+}
+
+.headerFont {
+    font-family: 'Alegreya SC', serif;
+    color: #2c2a2c;
+}
+
+.enterheader {
+    font-family: 'Alegreya SC', serif;
+    color: rgb(228, 115, 9)
+}
+
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary-color);
+}
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+footer {
+    padding-right: 1rem;
+}
+
+    footer .social > a {
+        color: var(--white-color);
+        opacity: 0.75;
+    }
+
+        footer .social > a:hover {
+            opacity: 0.90;
+            color: var(--secondary-color);
+        }
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.bsicon {
+    color: purple;
+}
+
+.jsicon {
+    color: rgb(226, 211, 4);
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(11, 82, 214);
+}
+
+.checklist > li i {
+    color: rgb(228, 115, 9);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#btnSubmit {
+    background-color: rgb(228, 115, 9);
+    color: white;
+    font-family: 'Alegreya SC', serif;
+}
+
+#alert {
+    color: rgb(0, 100, 5);
+    font-family: 'IM Fell English', serif;
+}
+
+.redText {
+    color: rgb(131, 0, 0);
+}
+
+.greenText {
+    color: rgb(0, 73, 0);
 }
